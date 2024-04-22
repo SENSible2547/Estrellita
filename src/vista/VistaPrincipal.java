@@ -13,7 +13,7 @@ public class VistaPrincipal extends JFrame{
     public VistaPrincipal(int[][] espacioEstrellas) {
         this.setEspacioEstrellas(espacioEstrellas);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(800, 600);
+        setSize(1900, 1000);
 
         JButton botonDerecha = new JButton(">");
         botonDerecha.addActionListener(e -> {
